@@ -44,7 +44,7 @@ export default function Hero() {
               </div>
               <div>
                 <p className="font-medium">Trusted by 500+  Telugu families</p>
-                <p className="text-sm text-muted-foreground">Across Vijayawada</p>
+                <p className="text-sm text-muted-foreground">Available across all over India.</p>
               </div>
             </div>
           </motion.div>
