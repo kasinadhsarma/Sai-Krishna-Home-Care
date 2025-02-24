@@ -22,7 +22,7 @@ const team = [
     role: "Patient Care Specialist",
   },
   {
-    name: "Suryudra Ramgopal",
+    name: "Suryndra Ramgopal",
     role: "Senior Caregiver",
   },
 ]
