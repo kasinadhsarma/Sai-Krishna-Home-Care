@@ -48,7 +48,7 @@ export default function Footer() {
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-primary shrink-0" />
                 <span className="text-muted-foreground">
-                  Available across over India. 
+                  Available across all over India. 
                 </span>
               </div>
             </div>
