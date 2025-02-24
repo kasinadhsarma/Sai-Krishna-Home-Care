@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin } from "lucide-react"
+import { Phone, Mail, MapPin } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -9,7 +9,7 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-4">About Us</h3>
             <p className="text-muted-foreground">
               Sai Krishna Home Care Services provides professional and reliable home care services with trained staff
-              available 24/7.
+              available 24/7 across India.
             </p>
           </div>
 
@@ -43,12 +43,12 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-primary" />
-                <span className="text-muted-foreground">contact@saikrishnahomecare.com</span>
+                <span className="text-muted-foreground">sainadh4335@gmail.com</span>
               </div>
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-primary shrink-0" />
                 <span className="text-muted-foreground">
-                  # 32-26-16/1, Sai Vijayalakshmi Nilayam, Machavaram Down, Vijayawada - 4
+                  Available across over India. 
                 </span>
               </div>
             </div>
@@ -63,6 +63,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }
-
