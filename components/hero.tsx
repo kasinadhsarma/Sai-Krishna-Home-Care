@@ -43,7 +43,7 @@ export default function Hero() {
                 ))}
               </div>
               <div>
-                <p className="font-medium">Trusted by 500+ families</p>
+                <p className="font-medium">Trusted by 500+  Telugu families</p>
                 <p className="text-sm text-muted-foreground">Across Vijayawada</p>
               </div>
             </div>
