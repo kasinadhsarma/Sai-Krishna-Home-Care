@@ -1,19 +1,4 @@
 import { NextResponse } from 'next/server';
-import { Resend } from 'resend';
-
-// Initialize Resend for email sending
-const resend = new Resend(process.env.RESEND_API_KEY);
-
-// Email template for contact form submissions
-const createEmailContent = (formData: any) => `
-Contact Form Submission
-
-Name: ${formData.name}
-Email: ${formData.email}
-Phone: ${formData.phone}
-Service Required: ${formData.service}
-Message: ${formData.message}
-`;
 
 export async function POST(request: Request) {
   try {
@@ -48,13 +33,8 @@ export async function POST(request: Request) {
       );
     }
 
-    // Send email notification
-    await resend.emails.send({
-      from: 'onboarding@resend.dev', // Default verified sender from Resend
-      to: 'sainadh4335@gmail.com',
-      subject: 'New Contact Form Submission',
-      text: createEmailContent(formData),
-    });
+    // Here you can add logic to store the form submission in a database
+    console.log('Form submission received:', formData);
 
     // Store in database (you'll need to add your database logic here)
     // For example with Prisma:
